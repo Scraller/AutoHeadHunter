@@ -35,5 +35,5 @@ var host = new WebHostBuilder()
     .Configure(_ =>
     { })
     .Build();
-
+    
 await host.RunAsync();
